@@ -6,16 +6,15 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>  Aula 1 - Exemplo 1</h1>
+    <h1>  Aula 1 - Exemplo 3</h1>
 
     <?php
-    $nome = "Yago Isaque";
-    $idade = 16;
+    $num1 = 10;
+    $num2 = 5;
+    $num3 = 10;
+    $media = ($num1 + $num2 + $num3)/3;
 
-    echo "Olá $nome, você tem $idade anos! ";
-
-    $dias = $idade * 365;
-    echo "<br> Você já viveu $dias dias de vida. ";
+    echo "A média dos números é $media. ";
     ?>
 </body>
 </html>

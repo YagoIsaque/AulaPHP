@@ -6,16 +6,14 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>  Aula 1 - Exemplo 1</h1>
+    <h1>  Aula 1 - Exercicio 2 </h1>
 
     <?php
-    $nome = "Yago Isaque";
-    $idade = 16;
+    $custo = 150;
+    $consultas = 10;
+    $total = $custo * $consultas;
 
-    echo "Olá $nome, você tem $idade anos! ";
-
-    $dias = $idade * 365;
-    echo "<br> Você já viveu $dias dias de vida. ";
+    echo "O medico lucra com $consultas consultas por R$$custo é $total. ";
     ?>
 </body>
 </html>
